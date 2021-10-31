@@ -12,7 +12,7 @@ public class App {
         Scanner teclado = new Scanner(System.in);
         OperacionSuma obj_suma = new OperacionSuma();
         OperacionSuma obj_suma2 = new OperacionSuma(10,20);
-        System.out.println("Ingrese un numero: ");
+        System.out.println("Ingrese un numeroo: ");
         obj_suma.setNum1(teclado.nextInt());
         obj_suma.setNum2(teclado.nextInt());
         obj_suma.sumar();
