@@ -1,7 +1,9 @@
 
 package holamundo;
 
+import Controlador.ControladorfrmOperaciones;
 import Modelo.OperacionSuma;
+import Vista.frmSuma;
 import java.util.Scanner;
 
 
@@ -9,6 +11,26 @@ public class App {
 
   
     public static void main(String[] args) {
+        
+        OperacionSuma modelo= new OperacionSuma();
+        frmSuma vista = new frmSuma();
+        ControladorfrmOperaciones controlador = new ControladorfrmOperaciones(modelo,vista);
+        controlador.iniciar();
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
         Scanner teclado = new Scanner(System.in);
         OperacionSuma obj_suma = new OperacionSuma();
         OperacionSuma obj_suma2 = new OperacionSuma(10,20);

@@ -193,15 +193,15 @@ public class frmSuma extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnSalir;
-    private javax.swing.JButton btnSumar;
+    public javax.swing.JButton btnSalir;
+    public javax.swing.JButton btnSumar;
     private javax.swing.JLabel lblNum1;
     private javax.swing.JLabel lblNum2;
     private javax.swing.JLabel lblTitulo;
     private javax.swing.JPanel panBotones;
     private javax.swing.JPanel panControles;
     private javax.swing.JPanel panTitulo;
-    private javax.swing.JTextField txtNum1;
-    private javax.swing.JTextField txtNum2;
+    public javax.swing.JTextField txtNum1;
+    public javax.swing.JTextField txtNum2;
     // End of variables declaration//GEN-END:variables
 }
